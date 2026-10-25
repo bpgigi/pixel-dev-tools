@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "skill": "cozy-pixel-characters",
+  "successful_generation_calls": 4,
+  "corrective_generation_calls": 0,
+  "text_only_calls": 3,
+  "bundled_reference_calls": 1,
+  "generator": "built-in image_gen",
+  "model": null,
+  "method": "Each case ran in a separate new agent without inherited chat images. The bundled-reference case inspected and explicitly passed baker.png. Retained each first successful output; no best-of selection.",
+  "results": [
+    {"id": "alchemist", "mode": "text-only", "overall": "partial", "record": "../../examples/cozy-pixel-characters/text-only/alchemist/generation.json"},
+    {"id": "blacksmith", "mode": "text-only", "overall": "partial", "record": "../../examples/cozy-pixel-characters/text-only/blacksmith/generation.json"},
+    {"id": "nurse", "mode": "text-only", "overall": "partial", "record": "../../examples/cozy-pixel-characters/text-only/nurse/generation.json"},
+    {"id": "bundled-alchemist", "mode": "bundled-reference", "overall": "partial", "record": "../../examples/cozy-pixel-characters/bundled-reference/alchemist/generation.json"}
+  ],
+  "not_run": ["merchant", "minimal", "sprite-export"],
+  "native_sprite_grid_validation": "not performed",
+  "conclusion": "All four initial outputs depict the requested role, colors and prop. Style adherence remains partial: overly prominent eyes or overly dense detail, and faint alpha residue. Bundled anchors are the default consistency aid, not a demonstrated guarantee. Larger repeated evaluations are still needed."
+}

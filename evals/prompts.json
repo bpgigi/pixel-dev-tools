@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "skill": "cozy-pixel-characters",
+  "cases": [
+    {"id": "bundled-alchemist", "prompt": "生成一位拿着药瓶的炼金术士，紫色衣服，透明背景。", "mode": "bundled-reference", "checks": ["显式使用一张内置样板", "替换样板身份与道具", "紫色服装和药瓶", "真实透明背景"]},
+    {"id": "alchemist", "prompt": "生成一位拿着药瓶的炼金术士，紫色衣服，透明背景。", "mode": "text-only", "checks": ["紫色服装", "药瓶可辨认", "单人全身", "真实透明背景"]},
+    {"id": "blacksmith", "prompt": "生成一位小镇铁匠，棕色软帽，蓝灰色衣服，皮围裙，拿一把小锤子，透明背景。", "mode": "text-only", "checks": ["棕色软帽", "蓝灰衣服与皮围裙", "小锤子", "真实透明背景"]},
+    {"id": "nurse", "prompt": "生成一位小镇护士，栗色短发，奶白色衣服、鼠尾草绿色围裙，手持小药箱，透明背景。", "mode": "text-only", "checks": ["栗色短发", "奶白衣服与绿围裙", "小药箱", "真实透明背景"]},
+    {"id": "merchant", "prompt": "生成一位微笑的年长杂货商，灰色短发，酒红色背心，抱着一个小布袋，透明背景。", "mode": "text-only", "checks": ["年长角色", "灰色短发", "酒红背心", "小布袋"]},
+    {"id": "minimal", "prompt": "生成一位园丁。", "mode": "text-only", "checks": ["合理补齐缺省细节", "园丁身份可辨", "单人透明PNG"]},
+    {"id": "sprite-export", "prompt": "把已确认的角色做成严格48×48的游戏精灵，保持像素边缘。", "mode": "existing-master", "checks": ["检查母版", "说明网格整理工作", "不把自动缩小当作逐像素精修", "检查最终尺寸"]}
+  ]
+}

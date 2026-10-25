@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cozy Pixel Characters"
+  short_description: "Generate rounded, warm JRPG pixel-style town characters"
+  default_prompt: "Use $cozy-pixel-characters to generate a purple-clothed alchemist holding a small potion bottle on a transparent background."

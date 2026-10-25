@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "baker",
+      "file": "baker.png",
+      "sha256": "214e4d51bbddf9500711595f70f795a6c744cbd0def89b27a15a4e2667e0d9e9",
+      "bytes": 594485,
+      "width": 1086,
+      "height": 1448,
+      "format": "png",
+      "channels": 4,
+      "alpha_present": true,
+      "alpha_counts": {
+        "transparent": 1071896,
+        "partial": 498546,
+        "opaque": 2086
+      },
+      "native_sprite_grid_verified": false,
+      "generator": "built-in image_gen",
+      "model": null,
+      "creation_mode": "reference-guided original role design",
+      "source_images_included": false,
+      "source_note": "Earlier design used a user-provided game-scene crop for visual style. That source screenshot and crop are not distributed.",
+      "processing": "Original generated PNG copied without pixel edits."
+    },
+    {
+      "id": "postman",
+      "file": "postman.png",
+      "sha256": "3fe04dbd475ec904c35e01231f1489ff9d9b11f897bc43b379be71236134f0b3",
+      "bytes": 759791,
+      "width": 1097,
+      "height": 1434,
+      "format": "png",
+      "channels": 4,
+      "alpha_present": true,
+      "alpha_counts": {
+        "transparent": 888167,
+        "partial": 682766,
+        "opaque": 2165
+      },
+      "native_sprite_grid_verified": false,
+      "generator": "built-in image_gen",
+      "model": null,
+      "creation_mode": "reference-guided original role design",
+      "source_images_included": false,
+      "source_note": "Earlier design used a user-provided game-scene crop for visual style. That source screenshot and crop are not distributed.",
+      "processing": "Original generated PNG copied without pixel edits."
+    },
+    {
+      "id": "florist",
+      "file": "florist.png",
+      "sha256": "a9af8795aeb26741e2c9346edf842bcb2b90b154b5460fc705955727a03aa36b",
+      "bytes": 763730,
+      "width": 1048,
+      "height": 1501,
+      "format": "png",
+      "channels": 4,
+      "alpha_present": true,
+      "alpha_counts": {
+        "transparent": 902107,
+        "partial": 668618,
+        "opaque": 2323
+      },
+      "native_sprite_grid_verified": false,
+      "generator": "built-in image_gen",
+      "model": null,
+      "creation_mode": "reference-guided original role design",
+      "source_images_included": false,
+      "source_note": "Earlier design used a user-provided game-scene crop for visual style. That source screenshot and crop are not distributed.",
+      "processing": "Original generated PNG copied without pixel edits."
+    }
+  ]
+}

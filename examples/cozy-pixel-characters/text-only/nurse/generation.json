@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "nurse",
+  "date": "2026-10-25",
+  "mode": "text-only",
+  "context": "Fresh independent agent without inherited chat history or image inputs.",
+  "user_input": "生成一位小镇护士，栗色短发，奶白色衣服、鼠尾草绿色围裙，手持小药箱，透明背景。",
+  "generator": {
+    "tool": "built-in image_gen",
+    "model": null,
+    "seed": null
+  },
+  "tool_arguments": {
+    "prompt": "Use case: stylized-concept.\nAsset type: one cozy JRPG town-map character, shown as an enlarged pixel-sprite inspection image.\nPrimary request: A town nurse with short chestnut-brown hair, wearing milk-white clothing and a sage-green apron, holding one small medical kit. Simple practical clothing and a clearly readable modest medical kit.\nAdditional user constraints: One town nurse; short chestnut hair; milk-white clothing; sage-green apron; a small medical kit held in one hand; transparent background.\n\nComposition: one isolated complete character, headwear through shoe soles visible, with clear transparent margins. Slight overhead three-quarter front view. Compact natural standing pose unless another pose is requested. No scenery, floor, ground shadow, glow, labels, text, border, or additional characters. Genuinely transparent background.\n\nShape language: approximately 2.0–2.1 heads tall. Rounded hair or headwear occupies about 45–50 percent of total height, with a small exposed face beneath it. Narrow shoulders, almost no visible neck, compact short torso, short arms and stubby legs, small thick shoes. Build the silhouette from full, rounded masses. The face uses tiny simple dark short-stroke eyes and minimal nose and mouth. No large glossy anime eyes, detailed irises, eyelashes, or individual fingers.\n\nPixel treatment: delicately finished small-map-sprite pixel art. About 46–50 logical pixels of visual detail from headwear to soles and 30–35 across the main body; this describes detail density, not a request to fabricate a specific output resolution. Enlarging the image must not add finer illustration details. Use clean connected pixel clusters, carefully shaped stepped contours and warm dark-brown outlines roughly one logical pixel thick. Rounded forms come from deliberate pixel stair steps and neighboring color clusters, never smooth vector curves or a pixelation filter.\n\nColor and shading: harmonious lively costume colors, warm skin shading appropriate to the requested skin tone, broad readable base-color regions, a few deliberate shadow clusters, restrained highlights and gentle warm intermediate edge colors. Consistent soft upper-left lighting. Retain nuanced middle tones without destructive palette reduction. Keep every shape readable at tiny map scale.\n\nCharacter identity: follow the requested occupation, clothing, hair, skin tone, expression and prop. Simplify fine costume details into readable shapes. Keep props modest in scale so the body remains visible. Do not add an elaborate inventory, ornamentation, patterns or story elements absent from the brief.\n\nAvoid: tall thin proportions, large portrait-style faces, glossy anime eyes, long fine limbs, intricate garment folds, individual hair strands, scattered noise pixels, coarse 8-bit mosaic blocks, forced 32-pixel reduction, blanket dithering, blurred edges, airbrushed gradients, smooth painted curves, plastic 3D highlights, photorealism, fake checkerboard transparency.",
+    "transparent_background": true
+  },
+  "omitted_tool_arguments": [
+    "referenced_image_paths",
+    "num_last_images_to_include"
+  ],
+  "attempt_count": 1,
+  "corrective_attempts": 0,
+  "output": {
+    "file": "character.png",
+    "sha256": "83fc42c87fab483e26c31273839d18180db51e83cf89af20e6449ae1895307b9",
+    "bytes": 660965,
+    "width": 1239,
+    "height": 1269,
+    "format": "png",
+    "channels": 4,
+    "alpha_present": true,
+    "alpha_counts": {
+      "transparent": 1076833,
+      "partial": 493804,
+      "opaque": 1654
+    },
+    "native_sprite_grid_verified": false,
+    "processing": "Byte-for-byte copy of generator output; no cleanup, resizing or quantization."
+  },
+  "review": {
+    "overall": "partial",
+    "rubric": {
+      "requested_character": "pass",
+      "proportions_and_face": "partial",
+      "rounded_stepped_outline": "pass",
+      "pixel_clusters": "partial",
+      "complete_composition": "pass",
+      "transparent_output": "partial"
+    },
+    "observations": [
+      "栗色短发、奶白服装、绿色围裙和药箱符合输入。",
+      "眼睛较大，头发、衣领和围裙褶皱细节偏多。",
+      "小尺寸下细节压成较杂碎色块。",
+      "真实alpha存在，但大部分主体接近不透明，轮廓外有低alpha残留。"
+    ]
+  },
+  "evaluation_policy": "One successful initial generation per character. Corrective generations deliberately excluded from this baseline."
+}
