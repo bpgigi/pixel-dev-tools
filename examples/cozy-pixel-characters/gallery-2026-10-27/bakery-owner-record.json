@@ -1,0 +1,42 @@
+{
+  "character": "约40岁面包店女老板",
+  "assetType": "pixel-style character master",
+  "generator": "built-in image_gen",
+  "model": null,
+  "attempt_count": 2,
+  "corrective_attempt_count": 1,
+  "mode": "bundled-reference generation followed by targeted face correction",
+  "initialReferenceImage": "C:/Users/HP/.codex/skills/cozy-pixel-characters/assets/style-anchors/baker.png",
+  "initialReferencePurpose": "Sole initial input image for anatomy, pixel-cluster scale, outline and shading; identity and outfit updated.",
+  "correctionInputImage": "D:/Codex_no_task/2026-10-25/new-chat/work/town-characters-2026-10-27/bakery-owner-attempt-1.png",
+  "promptFile": "bakery-owner-prompt.txt",
+  "expandedPrompt": "Input image: one bundled original character, used ONLY as the anatomy, pixel-cluster scale, outline and shading reference. Design a NEW character that belongs at the same map scale. Match its compact silhouette and small face scale; adapt facial age and expression to the requested character rather than copying its facial markings or blush. Replace its profession, costume, hair and prop with the requested character; do not copy its identity or show it beside the new character. Do not add finer illustration texture or larger eyes. Preserve discrete pixel steps and warm intermediate color clusters. Keep the background genuinely transparent with no glow, halo or floor shadow.\n\nUse case: stylized-concept.\nAsset type: one cozy JRPG town-map character, shown as an enlarged pixel-sprite inspection image.\nPrimary request: A friendly woman who owns a town bakery, around 40 years old. Auburn hair tucked under a soft rounded cream baker cap. A warm terracotta-coral work dress with a simple cream apron and sturdy short brown shoes. She holds one small golden loaf of bread naturally in both hands, modest in scale so the dress and apron remain readable. Mature friendly face with relaxed shorter eyelids and tiny restrained smile-crease clusters, not elderly or childlike; a small welcoming smile. Compact natural standing pose.\n\nComposition: one isolated complete character, headwear through shoe soles visible, with clear transparent margins. Slight overhead three-quarter front view. Compact natural standing pose unless another pose is requested. No scenery, floor, ground shadow, glow, labels, text, border, or additional characters. Genuinely transparent background.\n\nShape language: approximately 2.0–2.1 heads tall. Rounded hair or headwear occupies about 45–50 percent of total height, with a small exposed face beneath it. Narrow shoulders, almost no visible neck, compact short torso, short arms and stubby legs, small thick shoes. Build the silhouette from full, rounded masses. The face uses tiny simple dark short-stroke eyes and minimal nose and mouth. No large glossy anime eyes, detailed irises, eyelashes, or individual fingers.\n\nHuman facial layout: omit the nose or suggest it with one subtle skin-tone shadow cluster. When visible, the mouth is one tiny warm-brown line or stepped smile below the eyes. No blush by default; if requested, keep it subdued on the outer cheeks, clearly separate from nose and mouth. Do not place paired red dots in the central nose/mouth area. Follow any explicitly requested nonhuman anatomy instead of this human-face default.\n\nPixel treatment: delicately finished small-map-sprite pixel art. About 46–50 logical pixels of visual detail from headwear to soles and 30–35 across the main body; this describes detail density, not a request to fabricate a specific output resolution. Enlarging the image must not add finer illustration details. Use clean connected pixel clusters, carefully shaped stepped contours and warm dark-brown outlines roughly one logical pixel thick. Rounded forms come from deliberate pixel stair steps and neighboring color clusters, never smooth vector curves or a pixelation filter.\n\nColor and shading: harmonious lively costume colors, warm skin shading appropriate to the requested skin tone, broad readable base-color regions, a few deliberate shadow clusters, restrained highlights and gentle warm intermediate edge colors. Consistent soft upper-left lighting. Retain nuanced middle tones without destructive palette reduction. Keep every shape readable at tiny map scale.\n\nCharacter identity: follow the requested occupation, age, clothing, hair, skin tone, expression and prop. Compact chibi proportions must still convey the requested age through a few readable face or posture cues in the character brief. Simplify fine costume details into readable shapes. Keep props modest in scale so the body remains visible. Do not add an elaborate inventory, ornamentation, patterns or story elements absent from the brief.\n\nAvoid: tall thin proportions, large portrait-style faces, glossy anime eyes, long fine limbs, intricate garment folds, individual hair strands, scattered noise pixels, coarse 8-bit mosaic blocks, forced 32-pixel reduction, blanket dithering, blurred edges, airbrushed gradients, smooth painted curves, plastic 3D highlights, photorealism, fake checkerboard transparency.",
+  "correctionPromptFile": "bakery-owner-correction-prompt.txt",
+  "correctionPrompt": "Use case: identity-preserve.\nEdit the supplied bakery-owner character master ONLY to make her face read as a friendly mature woman around 40 rather than a child. Keep her SAME identity, auburn hair, cream baker cap, coral dress, cream apron, bread loaf held with both hands, brown shoes, standing pose, compact approximately two-head proportions, framing and transparent background.\n\nTargeted correction: Reduce the height of both dark eye strokes by roughly one half. Give them subtly relaxed horizontal upper eyelids and keep them tiny, open and friendly. Add only one restrained warm skin-tone smile-crease cluster at each outer lower cheek, subtle enough for a middle-aged adult, not the deeper lines of an elderly grandmother. Keep the small clear warm-brown stepped smile. Omit the nose, no blush and no paired central red dots. Avoid eyelashes and any glossy eye highlights.\n\nPreserve the current warm brown stepped outlines, exact pixel-cluster scale, rounded masses and discrete warm shading across the entire asset. Hair, hat, costume, arms, loaf and shoes should be as close to the input as possible. No new props, accessories, shadows, textures, noise, scenery or text. Genuine transparent alpha with complete headwear, hands, loaf and feet and clear margins.",
+  "masterFile": "bakery-owner.png",
+  "originalSource": "C:/Users/HP/.codex/generated_images/01a171ff-99e4-7500-b243-081e77d4d1c8/exec-b0cd7a2e-ffc6-4b9d-be63-6eb114e0bd2a.png",
+  "dimensions": {
+    "height": 1448,
+    "width": 1086
+  },
+  "alpha": {
+    "notes": "True alpha channel; character interior predominantly alpha 253 or 254, nearly opaque. Exact generated alpha preserved.",
+    "opaquePixels": 2308,
+    "transparentPixels": 1046470,
+    "verified": true,
+    "partialAlphaPixels": 523750
+  },
+  "sha256": "9CF2A540216F0D9210FA2ED3A0A39C6008FFE13BF71E3D465243AAE68526E312",
+  "review": [
+    "Reviewed enlarged output and separate nearest-neighbor previews at 120, 72 and 56 pixel canvas heights.",
+    "Auburn hair, rounded cream cap, coral-terra-cotta dress, cream apron, small golden loaf held in both complete hands and both brown shoes are present.",
+    "First attempt had taller youthful eyes. A targeted edit shortened the eyes and added restrained outer cheek smile creases; face now reads as a friendly adult without elderly wrinkles.",
+    "Distinct tiny warm-brown smile and omitted nose; no paired central red dots.",
+    "Warm shading, readable bread shape, compact approximately two-head proportions and rounded stepped outline retained. At smallest map preview the exact age cannot be inferred.",
+    "Transparent margins on all sides; no background, ground shadow, text or extra characters. No further correction needed."
+  ],
+  "limitations": [
+    "Exact numerical age is not verifiable from a tiny chibi face.",
+    "Native sprite grid was not verified; master is a large pixel-style PNG."
+  ]
+}

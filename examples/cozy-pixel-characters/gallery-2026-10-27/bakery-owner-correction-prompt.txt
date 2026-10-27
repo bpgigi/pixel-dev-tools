@@ -1,0 +1,6 @@
+Use case: identity-preserve.
+Edit the supplied bakery-owner character master ONLY to make her face read as a friendly mature woman around 40 rather than a child. Keep her SAME identity, auburn hair, cream baker cap, coral dress, cream apron, bread loaf held with both hands, brown shoes, standing pose, compact approximately two-head proportions, framing and transparent background.
+
+Targeted correction: Reduce the height of both dark eye strokes by roughly one half. Give them subtly relaxed horizontal upper eyelids and keep them tiny, open and friendly. Add only one restrained warm skin-tone smile-crease cluster at each outer lower cheek, subtle enough for a middle-aged adult, not the deeper lines of an elderly grandmother. Keep the small clear warm-brown stepped smile. Omit the nose, no blush and no paired central red dots. Avoid eyelashes and any glossy eye highlights.
+
+Preserve the current warm brown stepped outlines, exact pixel-cluster scale, rounded masses and discrete warm shading across the entire asset. Hair, hat, costume, arms, loaf and shoes should be as close to the input as possible. No new props, accessories, shadows, textures, noise, scenery or text. Genuine transparent alpha with complete headwear, hands, loaf and feet and clear margins.

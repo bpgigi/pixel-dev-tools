@@ -1,0 +1,52 @@
+{
+  "character": "老渔夫",
+  "created_date": "2026-10-27",
+  "mode": "bundled-reference",
+  "generator": "built-in image_gen",
+  "model": "not reported by tool",
+  "seed": "not reported by tool",
+  "reference": {
+    "path": "C:/Users/HP/.codex/skills/cozy-pixel-characters/assets/style-anchors/postman.png",
+    "purpose": "anatomy, pixel-cluster scale, outline and shading only; identity and facial age redesigned",
+    "inspected": true
+  },
+  "attempt_count": 1,
+  "corrective_attempts": 0,
+  "dimensions": {
+    "width": 1096,
+    "height": 1435
+  },
+  "transparency": {
+    "format": "PNG with alpha",
+    "zero_alpha_pixels": 854919,
+    "opaque_pixels": 1635,
+    "partial_alpha_pixels": 716206,
+    "nonzero_alpha_bounds": [
+      0,
+      17,
+      1094,
+      1434
+    ],
+    "note": "Actual transparent pixels verified; many character pixels are near-opaque rather than fully opaque. Very faint nonzero alpha may extend outside visible outline. Original generated alpha preserved."
+  },
+  "asset_type": "pixel-style character master; native sprite grid not verified",
+  "source_generated_path": "C:/Users/HP/.codex/generated_images/01a17217-bf3a-7d01-ba81-5c57d5c91820/exec-e23cb5ae-5239-4ba1-aaff-d53cde3a2e15.png",
+  "saved_image": "old-fisherman.png",
+  "prompt_file": "old-fisherman-prompt.txt",
+  "sha256": "D5A5D2C94F069EF1AA43DADB9F58E33D686D2245A634B3EDB031C1B5B7EDDA9C",
+  "original_copy_verified": true,
+  "review": {
+    "enlarged": true,
+    "nearest_neighbor_map_scale": true,
+    "scratch_preview": "work/town-characters-2026-10-27/old-fisherman-map-preview.png",
+    "findings": [
+      "Complete compact full-body character, with blue cap, white beard, sparse brows, smiling lowered eyelids and a few eye/cheek crease clusters that convey older age.",
+      "Mustard yellow raincoat, dark blue trousers and brown boots remain readable at small size.",
+      "Wooden bucket contains one small intact silver fish; body, hands, bucket and shoes remain complete.",
+      "Single warm-brown smiling mouth, no paired saturated red marks in central nose/mouth area.",
+      "Warm brown stepped outlines, rounded connected pixel clusters and consistent top-left highlights match the bundled style.",
+      "No scenery, text, fake checkerboard or floor shadow.",
+      "Original master was not resized, palette-reduced, sharpened or smoothed; only a separate nearest-neighbor QA preview was created."
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "character": "小镇炼金术士",
+  "asset": "alchemist.png",
+  "asset_type": "pixel-style character master",
+  "prompt_file": "alchemist-prompt.txt",
+  "generation_mode": "bundled-reference",
+  "input_images": [
+    {
+      "path": "C:/Users/HP/.codex/skills/cozy-pixel-characters/assets/style-anchors/baker.png",
+      "role": "sole anatomy, pixel-cluster scale, outline and shading reference; identity and costume changed"
+    }
+  ],
+  "generator": "built-in image_gen",
+  "actual_model_name": null,
+  "seed": null,
+  "attempt_count": 1,
+  "corrective_passes": 0,
+  "transparent_background_requested": true,
+  "actual_dimensions": {
+    "width": 1086,
+    "height": 1448
+  },
+  "alpha_review": {
+    "actual_alpha_channel": true,
+    "fully_transparent_pixels": 1058137,
+    "alpha_1_to_10_pixels": 7938,
+    "alpha_11_to_127_pixels": 3652,
+    "alpha_128_to_239_pixels": 3433,
+    "alpha_240_to_254_pixels": 497839,
+    "fully_opaque_pixels": 1529,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "visible_bounds_at_alpha_above_127": {
+      "x": 223,
+      "y": 240,
+      "width": 643,
+      "height": 1124
+    },
+    "note": "Generated alpha preserved without postprocessing. Most character pixels near opaque; small low-alpha edge data remains."
+  },
+  "review": {
+    "full_image": "Rounded plum-purple hood, short ash-brown hair, purple compact work coat with muted gold trim and fastenings, dark trousers, brown shoes and one corked turquoise potion flask are all present. Both hands, shoes and prop complete; no scene, particles or extra inventory. Warm dark outline and discrete stepped clusters match the reference family.",
+    "face": "Small simple dark eyes under slightly lowered eyebrows, and one tiny continuous warm-brown horizontal mouth line. No paired red marks or added blush. Expression is calm and subtly friendly.",
+    "age": "Composed eyes and eyebrows plus grounded stance convey an adult. Exact age of thirty remains approximate in chibi styling.",
+    "map_scale": "Inspected nearest-neighbor previews at approximately 64 and 128 px visible character height. Purple costume, turquoise flask, warm outline and compact silhouette remain readable.",
+    "defects": "No clear defect requiring targeted correction.",
+    "native_sprite_grid_verified": false
+  },
+  "original_generated_path": "C:/Users/HP/.codex/generated_images/01a171ff-c2fb-7672-a5b9-88c18a7c1bef/exec-f327453b-b538-45fa-b904-bf750a7fb6b4.png",
+  "preview_path": "D:/Codex_no_task/2026-10-25/new-chat/work/town-characters-2026-10-27/alchemist-map-preview.png",
+  "postprocessing_applied_to_deliverable": false,
+  "skill_modified": false
+}

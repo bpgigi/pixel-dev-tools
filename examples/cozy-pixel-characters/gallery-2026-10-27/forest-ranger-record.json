@@ -1,0 +1,38 @@
+{
+  "character": "森林游侠",
+  "asset_type": "pixel-style character master",
+  "generator": "built-in image_gen",
+  "model": null,
+  "mode": "bundled-reference",
+  "reference_image": "C:/Users/HP/.codex/skills/cozy-pixel-characters/assets/style-anchors/postman.png",
+  "reference_role": "Anatomy, cluster scale, outlines and shading reference only; new identity/outfit.",
+  "attempt_count": 1,
+  "corrective_passes": 0,
+  "prompt_file": "forest-ranger-prompt.txt",
+  "file": "forest-ranger.png",
+  "dimensions": {
+    "width": 1097,
+    "height": 1434
+  },
+  "alpha": {
+    "transparent_pixels": 926570,
+    "opaque_pixels": 2212,
+    "partial_alpha_pixels": 644316,
+    "original_preserved": true,
+    "note": "Some low-alpha stray pixels exist beyond visible silhouette; original generated alpha unchanged."
+  },
+  "original_path": "C:/Users/HP/.codex/generated_images/01a171fd-ed7d-7563-8baa-9dbe7ddbe6bb/exec-7aceabfc-827b-4e28-9ddb-788471d5728b.png",
+  "sha256": "793756834AD57D6B8E574B706505E5DBECEE9F101BB4F2A3D28E2472952D9589",
+  "review": {
+    "full_image": true,
+    "nearest_neighbor_map_preview": true,
+    "findings": [
+      "Green hood/cloak, brown braid, tan tunic, boots and wooden bow are complete.",
+      "One small connected central mouth; no separated red nostril-like dots.",
+      "Cohesive rounded silhouette and warm stepped pixel clusters.",
+      "Youthful adult appearance; exact age and femininity cannot be strongly inferred at tiny map size.",
+      "Native sprite grid not verified."
+    ],
+    "preview_file": "work/town-characters-2026-10-27/forest-ranger-map-preview.png"
+  }
+}

@@ -16,13 +16,11 @@
 
 **只输入文字**指用户的使用方式；默认生成流程仍会使用内置图片。首次独立试生成出现了细节过密、插画化和透明边缘残留，因此没有把纯文字结果宣传成稳定复现。内置参考模式也仍有眼睛偏大、装饰偏多的已知限制。
 
-内置风格样板（默认会择一用于生成）：
+近期生成示例：森林游侠、面包店老板娘、白胡子老渔夫和紫衣炼金术士。
 
-<p>
-  <img src="skills/cozy-pixel-characters/assets/style-anchors/baker.png" height="200" alt="内置面包师风格样板">
-  <img src="skills/cozy-pixel-characters/assets/style-anchors/postman.png" height="200" alt="内置邮差风格样板">
-  <img src="skills/cozy-pixel-characters/assets/style-anchors/florist.png" height="200" alt="内置花店店员风格样板">
-</p>
+![四位像素风角色：森林游侠、面包店老板娘、白胡子老渔夫、紫衣炼金术士](examples/cozy-pixel-characters/gallery-2026-10-27/town-characters-preview.png)
+
+展示图使用浅色底，四张角色母版均有真实透明通道。面包店老板娘经过一次年龄感定向修正；其余三位为首次生成结果。[透明原图、提示词和生成记录](examples/cozy-pixel-characters/README.md#近期角色展示2026-10-27)。生成时使用的[内置风格样板](skills/cozy-pixel-characters/assets/style-anchors/README.md)仍单独保留。
 
 - 约两头身、小脸、短手短腿、饱满轮廓、轻微俯视。
 - 深褐描边、暖色中间调、细腻且连贯的像素色块。
@@ -66,7 +64,7 @@ your-game/
 
 ## 示例与验证
 
-实际输入、生成图片和条件记录放在 [examples/cozy-pixel-characters](examples/cozy-pixel-characters/README.md)。已完成 **3 次独立纯文字首轮生成 + 1 次内置参考图首轮生成**，均保留原始结果与不足。纯文字测试与内置参考图测试分开记录。`examples/` 不参与自动生成；默认使用的三张样板位于 Skill 自带的 `assets/style-anchors/`，用途和来源单独记录。
+实际输入、生成图片和条件记录放在 [examples/cozy-pixel-characters](examples/cozy-pixel-characters/README.md)。页面收录了上方四位近期角色，并保留此前的 **3 次独立纯文字首轮生成 + 1 次内置参考图首轮生成**，分别记录生成条件与不足。`examples/` 不参与自动生成；默认使用的三张样板位于 Skill 自带的 `assets/style-anchors/`，用途和来源单独记录。
 
 [evals/prompts.json](evals/prompts.json) 保留后续回归测试输入，包含白发老奶奶与紫帽魔法师的内置参考图案例。验证关注职业和年龄是否可辨、鼻嘴与腮红是否分离、比例、轮廓、眼睛、像素色块和真实透明通道；不是只检查文件能否打开。新增输入不代表已经完成测试，历史示例保留当时的提示词与结果。少量样例不能证明所有职业或生成器都能稳定复现相同画风。
 
