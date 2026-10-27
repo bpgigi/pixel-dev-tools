@@ -17,7 +17,7 @@
 先检查 [样板索引](../assets/style-anchors/README.md) 并查看选定图片。将这段放到共用模板前，并把该图作为唯一明确图片输入。输入路径使用实际安装位置，不能把示例路径当成可用文件。
 
 ```text
-Input image: one bundled original character, used ONLY as the anatomy, pixel-cluster scale, outline and shading reference. Design a NEW character that belongs at the same map scale. Match its compact silhouette and tiny face closely. Replace its profession, costume, hair and prop with the requested character; do not copy its identity or show it beside the new character. Do not add finer illustration texture or larger eyes. Preserve discrete pixel steps and warm intermediate color clusters. Keep the background genuinely transparent with no glow, halo or floor shadow.
+Input image: one bundled original character, used ONLY as the anatomy, pixel-cluster scale, outline and shading reference. Design a NEW character that belongs at the same map scale. Match its compact silhouette and small face scale; adapt facial age and expression to the requested character rather than copying its facial markings or blush. Replace its profession, costume, hair and prop with the requested character; do not copy its identity or show it beside the new character. Do not add finer illustration texture or larger eyes. Preserve discrete pixel steps and warm intermediate color clusters. Keep the background genuinely transparent with no glow, halo or floor shadow.
 ```
 
 ## 共用完整模板
@@ -32,17 +32,20 @@ Composition: one isolated complete character, headwear through shoe soles visibl
 
 Shape language: approximately 2.0–2.1 heads tall. Rounded hair or headwear occupies about 45–50 percent of total height, with a small exposed face beneath it. Narrow shoulders, almost no visible neck, compact short torso, short arms and stubby legs, small thick shoes. Build the silhouette from full, rounded masses. The face uses tiny simple dark short-stroke eyes and minimal nose and mouth. No large glossy anime eyes, detailed irises, eyelashes, or individual fingers.
 
+Human facial layout: omit the nose or suggest it with one subtle skin-tone shadow cluster. When visible, the mouth is one tiny warm-brown line or stepped smile below the eyes. No blush by default; if requested, keep it subdued on the outer cheeks, clearly separate from nose and mouth. Do not place paired red dots in the central nose/mouth area. Follow any explicitly requested nonhuman anatomy instead of this human-face default.
+
 Pixel treatment: delicately finished small-map-sprite pixel art. About 46–50 logical pixels of visual detail from headwear to soles and 30–35 across the main body; this describes detail density, not a request to fabricate a specific output resolution. Enlarging the image must not add finer illustration details. Use clean connected pixel clusters, carefully shaped stepped contours and warm dark-brown outlines roughly one logical pixel thick. Rounded forms come from deliberate pixel stair steps and neighboring color clusters, never smooth vector curves or a pixelation filter.
 
 Color and shading: harmonious lively costume colors, warm skin shading appropriate to the requested skin tone, broad readable base-color regions, a few deliberate shadow clusters, restrained highlights and gentle warm intermediate edge colors. Consistent soft upper-left lighting. Retain nuanced middle tones without destructive palette reduction. Keep every shape readable at tiny map scale.
 
-Character identity: follow the requested occupation, clothing, hair, skin tone, expression and prop. Simplify fine costume details into readable shapes. Keep props modest in scale so the body remains visible. Do not add an elaborate inventory, ornamentation, patterns or story elements absent from the brief.
+Character identity: follow the requested occupation, age, clothing, hair, skin tone, expression and prop. Compact chibi proportions must still convey the requested age through a few readable face or posture cues in the character brief. Simplify fine costume details into readable shapes. Keep props modest in scale so the body remains visible. Do not add an elaborate inventory, ornamentation, patterns or story elements absent from the brief.
 
 Avoid: tall thin proportions, large portrait-style faces, glossy anime eyes, long fine limbs, intricate garment folds, individual hair strands, scattered noise pixels, coarse 8-bit mosaic blocks, forced 32-pixel reduction, blanket dithering, blurred edges, airbrushed gradients, smooth painted curves, plastic 3D highlights, photorealism, fake checkerboard transparency.
 ```
 
 ## 调用与修改
 
+- 用户明确要求老人时，在角色段加入两三项可读的年龄线索，按画风规范选择；不要只写 elderly 和白发，也不要把这些老人特征加入所有角色的固定画风段。
 - 真正透明背景还需要在生成工具支持时启用透明输出选项；提示词不能代替该选项。
 - 多个独立角色各调用一次，分别保存角色输入、最终展开提示词、图片和是否使用参考图。
 - 用户指定其他背景、视角或动作时修改对应段，不保留互相冲突的默认要求。

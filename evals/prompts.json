@@ -3,6 +3,8 @@
   "skill": "cozy-pixel-characters",
   "cases": [
     {"id": "bundled-alchemist", "prompt": "生成一位拿着药瓶的炼金术士，紫色衣服，透明背景。", "mode": "bundled-reference", "checks": ["显式使用一张内置样板", "替换样板身份与道具", "紫色服装和药瓶", "真实透明背景"]},
+    {"id": "bundled-grandmother", "prompt": "生成一位白发老奶奶，绿色开衫、奶油色围裙裙装，慈祥微笑，透明背景。", "mode": "bundled-reference", "checks": ["显式使用一张内置样板", "小尺寸下仍呈现老年感，不能仅依赖白发", "少量可读的眼睑、眉毛或脸颊年龄线索", "嘴形清楚，无鼻嘴中央双红点", "真实透明背景"]},
+    {"id": "bundled-purple-hat-wizard", "prompt": "生成一位戴紫色尖帽、穿紫袍的魔法师，手持一根小木魔杖，透明背景。", "mode": "bundled-reference", "checks": ["显式使用一张内置样板", "紫帽、紫袍和小魔杖", "不复制样板腮红或面部色点", "鼻嘴位置清楚，无鼻孔般的中央双红点", "真实透明背景"]},
     {"id": "alchemist", "prompt": "生成一位拿着药瓶的炼金术士，紫色衣服，透明背景。", "mode": "text-only", "checks": ["紫色服装", "药瓶可辨认", "单人全身", "真实透明背景"]},
     {"id": "blacksmith", "prompt": "生成一位小镇铁匠，棕色软帽，蓝灰色衣服，皮围裙，拿一把小锤子，透明背景。", "mode": "text-only", "checks": ["棕色软帽", "蓝灰衣服与皮围裙", "小锤子", "真实透明背景"]},
     {"id": "nurse", "prompt": "生成一位小镇护士，栗色短发，奶白色衣服、鼠尾草绿色围裙，手持小药箱，透明背景。", "mode": "text-only", "checks": ["栗色短发", "奶白衣服与绿围裙", "小药箱", "真实透明背景"]},

@@ -10,7 +10,7 @@ Turn a short role description into a single soft, rounded town RPG character. Th
 
 ## Build the character brief
 
-Keep the requested profession, appearance, clothing, colors, prop, expression, count, and background. Fill unspecified details conservatively. Default to one full-body character, a simple standing pose, a slight overhead three-quarter front view, and transparent background. Do not ask for details that can reasonably be chosen.
+Keep the requested profession, appearance, age, clothing, colors, prop, expression, count, and background. Fill unspecified details conservatively. Translate a stated age into a few readable face or posture cues using the style guide; hair color alone is not sufficient. Default to one full-body character, a simple standing pose, a slight overhead three-quarter front view, and transparent background. Do not ask for details that can reasonably be chosen.
 
 Read [the style guide](references/style-guide.md) and fill [the prompt template](references/prompt-template.md). Preserve the small map-character scale: about two heads tall, a small exposed face, tiny dark eyes, short limbs, a full rounded silhouette, warm brown outlines, and clean stepped pixel clusters. Roundness comes from cluster shapes and deliberate intermediate colors, not blur.
 
@@ -18,7 +18,7 @@ Read [the style guide](references/style-guide.md) and fill [the prompt template]
 
 Use the host's image-generation tool. In Codex, prefer the built-in `image_gen` tool and request true transparency when appropriate. The host's image-generation instructions govern tool arguments and output handling. If no image tool is available, explain that limitation and return the completed prompt; do not claim an image was generated or silently start a paid API workflow.
 
-- Default `bundled-reference` mode: read [the anchor index](assets/style-anchors/README.md), select one sample for the closest clothing silhouette, inspect that PNG, and pass it explicitly as a style/anatomy reference. Use the reference prefix in the prompt template. Transfer proportions, cluster scale and shading; change identity and outfit to match the user. Do not attach multiple samples by default.
+- Default `bundled-reference` mode: read [the anchor index](assets/style-anchors/README.md), select one sample for the closest clothing silhouette, inspect that PNG, and pass it explicitly as a style/anatomy reference. Use the reference prefix in the prompt template. Transfer proportions, cluster scale and shading; adapt age, expression, facial markings, identity and outfit to match the user rather than copying the sample's face. Do not attach multiple samples by default.
 - If the user asks for **no image inputs**, use `text-only` mode: pass no reference-image paths or prior-image count. Do not silently use gallery images, earlier chat images, or a hidden style anchor. In a chat containing images, disclose that the chat is not an isolated text-only test; use a fresh context to evaluate that claim.
 - If the user supplies a reference, inspect it and use it for the stated purpose instead of the bundled default. Record `user-reference` mode. Any image-conditioned output is reference-guided, even when the user did not upload the reference themselves.
 - If the tool cannot accept the bundled image, explain that fallback and use the text-only template only with the limitation disclosed.
@@ -27,7 +27,7 @@ Use the host's image-generation tool. In Codex, prefer the built-in `image_gen` 
 
 ## Inspect and deliver
 
-Inspect the actual image, both enlarged and at a small map-like display size. Check the requested character details, two-head proportions, small face and eyes, rounded stepped outline, clean shading clusters, complete hands/prop/feet, and actual transparency. Read image dimensions and alpha when image-inspection tools are available; an on-image checkerboard is not transparency.
+Inspect the actual image, both enlarged and at a small map-like display size. Check the requested character details and age, two-head proportions, small face and eyes, readable nose/mouth placement distinct from any blush, rounded stepped outline, clean shading clusters, complete hands/prop/feet, and actual transparency. Read image dimensions and alpha when image-inspection tools are available; an on-image checkerboard is not transparency.
 
 If a clear defect appears, make a targeted correction with the same style constraints. Avoid repeated whole-image redraws that gradually smooth the pixel texture. Preserve useful attempts; after two corrective attempts, report the remaining defect rather than silently looping.
 
